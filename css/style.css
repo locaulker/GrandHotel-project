@@ -341,7 +341,7 @@ body {
 .about-us-heading {
   font-family: "Josefin Sans", sans-serif;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 100;
   text-transform: uppercase;
   color: #555;
   margin-bottom: 1.6rem;
@@ -362,8 +362,8 @@ body {
 }
 
 .sub-heading {
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 400;
   letter-spacing: 0.2rem;
   color: #b85d1c;
   margin-bottom: 0;
@@ -402,5 +402,33 @@ body {
 
 .about-us-images {
   flex: 1 1;
+  position: relative;
 }
+
+.image {
+  width: 32rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+  border: 0.2rem solid #b85d1c;
+}
+
+.image-1 {
+  transform: translate(-20%, -90%);
+}
+
+.image-2 {
+  transform: translate(-70%, -70%);
+}
+
+.image-3 {
+  transform: translate(-50%, -50%);
+}
+
+.image-4 {
+  transform: translate(-30%, -30%);
+}
+
 /* END ABOUT US */
