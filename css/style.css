@@ -357,7 +357,6 @@ body {
 .big-underline {
   width: 20rem;
   height: 0.1rem;
-
   background-color: #b85d1c;
 }
 
@@ -432,3 +431,56 @@ body {
 }
 
 /* END ABOUT US */
+
+/* COMMON HEADING */
+.common-header {
+  padding: 5rem;
+  text-align: center;
+  color: #b85d1c;
+  text-transform: capitalize;
+}
+
+.common-heading {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.small-underline {
+  width: 9rem;
+  height: 0.1rem;
+  margin: 0 auto 1rem auto;
+  background-color: #b85d1c;
+}
+
+.big-underline {
+  width: 20rem;
+  height: 0.1rem;
+  margin: auto;
+  background-color: #b85d1c;
+}
+
+/* END COMMON HEADING */
+
+/* ROOMS SECTION */
+.rooms {
+  margin-left: 8rem;
+}
+
+.rooms-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.room-card {
+  width: 60rem;
+  margin: 5rem;
+  background-color: #15141b;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.room-img {
+  width: 100%;
+}
+/* END ROOMS SECTION */
