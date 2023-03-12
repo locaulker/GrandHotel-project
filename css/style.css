@@ -266,6 +266,7 @@ body {
   font-size: 7rem;
   font-weight: 500;
   margin-bottom: 0;
+  animation: header-anim 4s;
 }
 
 .banner-paragraph {
@@ -273,6 +274,7 @@ body {
   font-weight: 100;
   text-transform: capitalize;
   margin-top: 0;
+  animation: header-anim 2.5s 1s backwards;
 }
 
 .banner-button {
@@ -292,6 +294,7 @@ body {
     rgba(218, 165, 32, 0.9)
   );
   cursor: pointer;
+  animation: header-anim 3.5s 1.5s backwards;
 }
 
 .banner-button:hover {
@@ -304,6 +307,16 @@ body {
 
 .banner-button:active {
   transform: translateY(0.2rem);
+}
+
+@keyframes header-anim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* END HEADER */
