@@ -319,5 +319,88 @@ body {
     opacity: 1;
   }
 }
-
 /* END HEADER */
+
+/* ABOUT US */
+.about-us {
+  margin-left: 8rem;
+  display: flex;
+  background-color: #ddd;
+}
+
+.about-us-content {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+
+.about-us-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 1.6rem;
+}
+
+.small-underline {
+  width: 9rem;
+  height: 0.1rem;
+  margin: 0 auto 1rem auto;
+  background-color: #b85d1c;
+}
+
+.big-underline {
+  width: 20rem;
+  height: 0.1rem;
+
+  background-color: #b85d1c;
+}
+
+.sub-heading {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #b85d1c;
+  margin-bottom: 0;
+}
+
+.about-us-paragraph {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-us-btn {
+  width: 20rem;
+  padding: 1.2rem 0.7rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #b85d1c;
+  background-color: transparent;
+  border: 0.1rem solid #b85d1c;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20rem;
+}
+
+.btn-arrow {
+  margin-left: 0.5rem;
+  transition: margin-left 0.4s;
+}
+
+.about-us-btn:hover .btn-arrow {
+  margin-left: 1.5rem;
+}
+
+.about-us-images {
+  flex: 1 1;
+}
+/* END ABOUT US */
