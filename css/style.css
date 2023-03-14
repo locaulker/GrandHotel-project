@@ -554,3 +554,29 @@ body {
   background-color: #b85d1c;
 }
 /* END ROOMS SECTION */
+
+/* CUSTOMERS SECTION */
+.customers {
+  margin-left: 8rem;
+  padding-bottom: 7rem;
+  background-color: #15141b;
+}
+
+.customers-paragraph {
+  font-size: 1.8rem;
+  color: #ddd;
+  width: 50%;
+  margin: 2rem auto 8rem auto;
+  text-align: center;
+}
+
+.customers-card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.customer-card {
+  background-color: #eee;
+  width: 60rem;
+}
+/* END CUSTOMERS SECTION */
