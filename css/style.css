@@ -515,14 +515,16 @@ body {
 }
 
 .room-card-btn {
-  width: 20rem;
-  padding: 1.5rem 1rem;
+  width: 16rem;
+  padding: 1rem 0.8rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #b85d1c;
+  /* color: #b85d1c; */
+  color: #ddd;
   background-color: transparent;
-  border: 0.1rem solid #b85d1c;
+  /* border: 0.1rem solid #b85d1c; */
+  border: 0.2rem solid #ddd;
   outline: none;
   cursor: pointer;
   border-radius: 20rem;
