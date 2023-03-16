@@ -734,7 +734,7 @@ body {
 /* END FOOTER SECTION */
 
 /* MEDIA QUERIES */
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .customers-card-wrapper {
     flex-direction: column;
     align-items: center;
@@ -753,5 +753,24 @@ body {
   }
   .footer-list-item {
     margin-right: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-us {
+    flex-direction: column;
+    padding-bottom: 20rem;
+  }
+
+  .about-us-paragraph {
+    padding: 0 10rem;
+  }
+
+  .about-us-content {
+    margin-bottom: 13rem;
+  }
+
+  .image {
+    width: 25rem;
   }
 }
