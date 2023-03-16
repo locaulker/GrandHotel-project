@@ -732,3 +732,26 @@ body {
   color: gold;
 }
 /* END FOOTER SECTION */
+
+/* MEDIA QUERIES */
+@media (max-width: 1300px) {
+  .customers-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-card:first-child {
+    margin-bottom: 3rem;
+  }
+
+  .main-part {
+    flex-direction: column;
+  }
+
+  .footer-list {
+    display: flex;
+  }
+  .footer-list-item {
+    margin-right: 3rem;
+  }
+}
