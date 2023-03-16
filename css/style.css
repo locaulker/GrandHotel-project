@@ -97,6 +97,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  z-index: 5;
   transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
@@ -772,5 +773,166 @@ body {
 
   .image {
     width: 25rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner {
+    text-align: center;
+  }
+
+  .banner-heading {
+    font-size: 4.7rem;
+  }
+
+  .banner-paragraph {
+    font-size: 2.6rem;
+  }
+
+  .banner-button {
+    width: 16rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .customer-card {
+    flex-direction: column;
+    width: 40rem;
+  }
+
+  .customer-image {
+    margin-left: 0;
+    width: 40rem;
+  }
+
+  .footer-list {
+    display: block;
+  }
+
+  .creator-part {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .copyright-text {
+    order: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation {
+    width: 28rem;
+  }
+
+  .navigation-search-input {
+    width: 20rem;
+  }
+
+  .hotel-heading {
+    font-size: 1.8rem;
+    margin: auto 0;
+  }
+
+  .banner {
+    height: 100%;
+    margin-top: -10rem;
+  }
+
+  .banner-heading {
+    font-size: 3rem;
+  }
+
+  .banner-paragraph {
+    font-size: 2rem;
+  }
+
+  .about-us {
+    padding: 15rem 0;
+  }
+
+  .about-us-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about-us-content {
+    padding: 5rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .image {
+    width: 13rem;
+  }
+
+  .common-heading {
+    font-size: 2rem;
+  }
+
+  .small-underline {
+    width: 5rem;
+  }
+
+  .big-underline {
+    width: 12rem;
+  }
+
+  .room-card-heading {
+    font-size: 1.5rem;
+  }
+
+  .room-price {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .room-card-btn {
+    width: 12rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    border: 0.1rem solid #ddd;
+  }
+
+  .rooms-btn {
+    padding: 1rem 1.4rem;
+    margin: 2rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .customers-paragraph {
+    font-size: 1.4rem;
+    width: 70%;
+  }
+
+  .customer-image,
+  .customer-card {
+    width: 20rem;
+  }
+
+  .main-part {
+    padding: 4rem;
+  }
+
+  .footer-input {
+    width: 12rem;
+  }
+
+  .footer-list-item {
+    width: 100%;
+  }
+
+  .footer-heading {
+    margin: 4rem 0 1rem 0;
+  }
+
+  .image-wrapper {
+    width: 9rem;
   }
 }
